@@ -1,0 +1,6 @@
+language: minimal
+env:
+  - CONST1: 5
+script:
+  - env
+  - echo "alabala" 
