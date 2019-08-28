@@ -1,3 +1,4 @@
+#manual run 1
 language: minimal
 env:
   - CONST1: 5
