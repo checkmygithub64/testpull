@@ -5,3 +5,5 @@ env:
 script:
   - env
   - echo "alabala" 
+  - if [ "$TRAVIS_PULL_REQUEST" ]; then echo alabala
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo my false; else echo not my mistake; fi
